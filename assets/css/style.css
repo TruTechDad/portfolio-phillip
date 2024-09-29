@@ -9,7 +9,7 @@ body {
   color: #ededed;
 }
 
-.header {
+/* .header {
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -25,4 +25,4 @@ body {
   position: relative;
   display: flex;
   align-items: center;
-}
+} */
