@@ -2,27 +2,123 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 body {
-  background-color: #081b29;
-  color: #ededed;
+  line-height: 1.6;
 }
 
-/* .header {
+.header {
   display: flex;
   justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 20px 10px;
   align-items: center;
-  z-index: 100;
-  background: #051129;
+  padding: 20px;
+  background-color: #333;
+  color: white;
 }
+
 .header-logo {
-  position: relative;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+nav ul {
   display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+.main {
+  padding: 40px 20px;
+}
+
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
   align-items: center;
-} */
+  background: url("https://via.placeholder.com/1500") no-repeat center
+    center/cover;
+  color: white;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.home-content h3 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.about {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  flex: 1;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.about-content img {
+  max-width: 200px;
+  border-radius: 50%;
+}
+
+/* Project Section */
+.projects {
+  padding: 60px 20px;
+  background-color: #eaeaea;
+}
+.projects-content {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.projects-content project {
+  flex-wrap: wrap;
+}
