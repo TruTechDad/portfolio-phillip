@@ -119,6 +119,44 @@ nav ul li a:hover {
   transition: transform 0.3s ease;
 }
 
-.projects-content project {
-  flex-wrap: wrap;
+.project:hover {
+  transform: translateY(-10px);
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.project h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  font-size: 18px;
+}
+
+/* Contact Section */
+
+.contact {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  color: white;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+contact ul {
+  list-style: none;
+}
+
+.contact ul li {
+  display: inline-block;
+  margin: 0 15px;
 }
